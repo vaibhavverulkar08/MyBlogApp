@@ -1,0 +1,58 @@
+vaibhav@LAPTOP-4JSRA2QM MINGW64 /c/MyProjectDirectory/SpringBoot_dir (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   myapp-blog-apis/src/main/java/com/myapp/blog/entities/Category.java
+        modified:   myapp-blog-apis/src/main/java/com/myapp/blog/entities/User.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitBranches/README.md
+        acc-webapp-apis/
+        myapp-blog-apis/src/main/java/com/myapp/blog/controllers/PostController.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/entities/Post.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/payloads/PostDto.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/repositories/PostRepo.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/services/PostService.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/services/impl/PostServiceImpl.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+vaibhav@LAPTOP-4JSRA2QM MINGW64 /c/MyProjectDirectory/SpringBoot_dir (main)
+$ git branch blog-post-api
+
+vaibhav@LAPTOP-4JSRA2QM MINGW64 /c/MyProjectDirectory/SpringBoot_dir (main)
+$ git checkout blog-post-api
+Switched to branch 'blog-post-api'
+M       myapp-blog-apis/src/main/java/com/myapp/blog/entities/Category.java
+M       myapp-blog-apis/src/main/java/com/myapp/blog/entities/User.java
+
+vaibhav@LAPTOP-4JSRA2QM MINGW64 /c/MyProjectDirectory/SpringBoot_dir (blog-post-api)
+$ git status
+On branch blog-post-api
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   myapp-blog-apis/src/main/java/com/myapp/blog/entities/Category.java
+        modified:   myapp-blog-apis/src/main/java/com/myapp/blog/entities/User.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitBranches/README.md
+        acc-webapp-apis/
+        myapp-blog-apis/src/main/java/com/myapp/blog/controllers/PostController.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/entities/Post.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/payloads/PostDto.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/repositories/PostRepo.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/services/PostService.java
+        myapp-blog-apis/src/main/java/com/myapp/blog/services/impl/PostServiceImpl.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+vaibhav@LAPTOP-4JSRA2QM MINGW64 /c/MyProjectDirectory/SpringBoot_dir (blog-post-api)
+$
